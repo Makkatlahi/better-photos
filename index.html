@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+
     <link
       rel="icon"
       type="image/png"
@@ -21,14 +21,53 @@
       integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="style.css" />
 
-    <title>Better Photos -- Improve your photography skill</title>
+    <title>BetterPhotos -- Improve your photography skill</title>
   </head>
   <body class="page">
     <div class="app">
-      <header class="header"></header>
+      <header class="header">
+        <img
+          class="logo"
+          src="https://bytegrad.com/course-assets/css/2/logo.svg"
+          alt="Logo"
+        />
+        <form action="#" class="search">
+          <input
+            type="text"
+            class="search__input"
+            placeholder="Search photos..."
+          />
+          <button class="search__submit">
+            <i class="fas fa-search search__icon"></i>
+          </button>
+        </form>
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#" class="nav__link">
+                <i class="fas fa-compass nav__icon"></i>
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">
+                <i class="fas fa-fire-alt nav__icon"></i>
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">
+                <i class="fas fa-user nav__icon"></i>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
       <div class="sidebar"></div>
+
       <section class="gallery"></section>
+
       <section class="steps"></section>
     </div>
   </body>
