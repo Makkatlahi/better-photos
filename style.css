@@ -32,7 +32,8 @@ a {
   color: white;
   display: flex;
   justify-content: center;
-  background-image: url(https://bytegrad.com/course-assets/css/2/pattern.svg), linear-gradient(to bottom right, #8fd861, #2cc695 90%);
+  background-image: url(https://bytegrad.com/course-assets/css/2/pattern.svg),
+    linear-gradient(to bottom right, #8fd861, #2cc695 90%);
   scrollbar-width: none;
 }
 .page::-webkit-scrollbar {
@@ -106,7 +107,8 @@ a {
   height: 65px;
   display: block;
 }
-.nav__link:hover, .nav__link:focus {
+.nav__link:hover,
+.nav__link:focus {
   background-color: #eef3f4;
 }
 .nav__icon {

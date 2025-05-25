@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "compile": "sass --no-source-map main.scss style.css"
+    "compile": "sass --watch --no-source-map main.scss style.css"
   },
   "repository": {
     "type": "git",
