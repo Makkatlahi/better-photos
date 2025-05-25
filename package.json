@@ -1,0 +1,22 @@
+{
+  "name": "better-photos",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "compile": "sass --no-source-map main.scss style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Makkatlahi/better-photos.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Makkatlahi/better-photos/issues"
+  },
+  "homepage": "https://github.com/Makkatlahi/better-photos#readme",
+  "description": "",
+  "dependencies": {
+    "sass": "^1.89.0"
+  }
+}
