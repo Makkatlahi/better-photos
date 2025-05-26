@@ -76,6 +76,9 @@ a {
 //   font-size: 100%; // 1rem = 16px "medium" font size
 // }
 
+// INSTEAD DO THIS: font-size: 62.5%; // 1rem = 10px "small" font size
+// This allows us to use rems more easily, e.g. 1.4rem = 14px
+
 .page {
   font-family: "Poppins", sans-serif;
   font-size: 14px;
