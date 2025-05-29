@@ -74,5 +74,3 @@ src/
 This project is licensed under the ISC License.
 
 ---
-
-Made with ❤️ for learning and improving photography.
